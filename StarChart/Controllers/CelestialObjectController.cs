@@ -10,7 +10,7 @@ namespace StarChart.Controllers
 {
     [Route("")]
     [ApiController]
-    public class CelestialObjectController
+    public class CelestialObjectController: Controller
     {
         private readonly ApplicationDbContext _context;
 
